@@ -44,6 +44,7 @@ Config.Jobs.fisherman = {
 			Marker= 1,
 			Blip  = true,
 			Name  = _U('fm_fish_area'),
+            TaskStartScenarioInPlace(playerPed, "WORLD_HUMAN_STAND_FISHING", 0, true)
 			Type  = "work",
 			Hint  = _U('fm_fish_button'),
 			GPS   = {x = 3859.43, y = 4448.83, z = 0.39},
